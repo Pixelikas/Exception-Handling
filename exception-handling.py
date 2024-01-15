@@ -18,5 +18,6 @@ else:
 
 # Comando para finalizar
 finally:
-    # Fecha o arquivo
+    # Fecha o arquivo e mostra mensagem
     arquivo.close()
+    print("Arquivo finalizado!")
